@@ -1,0 +1,40 @@
+html, body, #root, #root>div {
+  height: 100%;
+  width: 100%;
+}
+.App {
+  text-align: center;
+}
+
+.Container{
+  padding: 25px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+button {
+  border: 1px solid #000;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:focus {
+  outline:0;
+}
